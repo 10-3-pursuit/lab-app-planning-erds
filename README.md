@@ -4,31 +4,65 @@
 
 ![](./assets/untitled-18.jpeg)
 
+##### DATA-MODELING AND DESIGNING AN API
+
+We'll create an ERD (Entity Relationship Diagram) for an outdoor equipment rental business idea.
+
+Feel free to work with a partner or in a group, or alone if you are so inclined
+
 ### API Planning Lab - Set Sail on a Code-Free Lab Activity
 
 You'll submit your ERDs to Canvas, so make sure you create them in a way that can be submitted as a web URL (link to a photo of drawings or using a drawing app or an ERD app).
 
-##### DATA-MODELING AND DESIGNING AN API
+### The Business
 
-In this course, we stay indoors, we don't interact with the outside world much, and we jump into stuff without much planning.
+#### Outdoor Equipment Rentals
 
-Let's try to change one of those things today.
+We want to create the api for an outdoor rental business.
 
-We'll create an ERD (Entity Relationship Diagram) for an outdoor equipment rental business idea.
+Let's think about some the data we may need just to get you started.
 
-This activity is recommended to be done in the following way:
+As you build out your ERD, you may want to add, remove and change any fields for your tables, depending on how you end up visualizing this business.
 
-- 30 minutes: pairs
-  - design your initial ERD
-- 20 minutes pair + pair for groups of four
-  - compare and contrast with your new partners
-  - choose one ERD to build and change
-- 10 minutes fours + fours for groups of eight
-  - compare and contrast with your new partners
-  - choose one ERD to build and change
-    etc.
+**HINT:** Keep tables as simple as you can and try not to repeate fields referencing the same entity.
 
-Then when the whole class is together, spend another 10 - 15 minutes talking through each of the different ERDs,
+- customers
+
+  - name
+  - address
+  - membership (trial, single, family, corporate discount)
+
+- store locations
+
+  - address
+  - staff
+  - equipment on hand
+
+- staff info
+
+  - staff, customers, similar info. you decide
+
+- rental
+
+  - staffer who made the transaction
+  - customer
+  - inventory
+  - rental start
+  - rental end
+
+- equipment
+
+  - type (water, winter etc.)
+  - store location
+  - is rented?
+  - condition (new, excellent, fair - maybe a photo for insurance purposes?)
+  - level of insurance required to rent
+  - recommended additional equipment (ie if kayak, then life vest, oars, first aid kit, roof rack....)
+  - cost to rent
+  - how many people to use it (single, pair, group...)
+  - experience level (novice, expert)
+  - cost to replace
+  - brand
 
 - What are the challenges of building ERDs?
 
@@ -61,53 +95,6 @@ Is your data
 - Is the model as simple as possible?
 - Can it be reorganized (relatively) easily?
 - Can both creators and users understand what is going on?
-
-### The Business
-
-#### Outdoor Equipment Rentals
-
-We want to create the api for an outdoor rental business.
-
-Let's think about some the data we may need just to get you started.
-
-As you build out your ERD, you may want to add, remove and change what is here, depending on how you end up visualizing this business
-
-- customers
-
-  - name
-  - address
-  - membership (trial, single, family, corporate discount)
-
-- store locations
-
-  - address
-  - staff
-  - equipment on hand
-
-- staff info
-
-  - you've got this!
-
-- rental
-
-  - staffer who made the transaction
-  - customer
-  - inventory
-  - rental start
-  - rental end
-
-- equipment
-  - type (water, winter etc.)
-  - store location
-  - is rented?
-  - condition (new, excellent, fair - maybe a photo for insurance purposes?)
-  - level of insurance required to rent
-  - recommended additional equipment (ie if kayak, then life vest, oars, first aid kit, roof rack....)
-  - cost to rent
-  - how many people to use it (single, pair, group...)
-  - experience level (novice, expert)
-  - cost to replace
-  - brand
 
 Further resources:
 
