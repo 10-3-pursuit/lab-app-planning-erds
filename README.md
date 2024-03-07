@@ -66,10 +66,8 @@ As you build out your ERD, you may want to add, remove and change any fields for
 
 - What are the challenges of building ERDs?
 
-Here is an example of a complex ERD (yours will not be so robust)
+Here is an example of a [complex ERD](https://www.researchgate.net/figure/EERD-of-Telemedicine-Web-Service_fig1_283635381) (yours will not be so robust)
 ![](https://www.researchgate.net/profile/Waheed_Iqbal/publication/283635381/figure/fig1/AS:294185682518019@1447150740787/EERD-of-Telemedicine-Web-Service.png)
-
-[source](https://www.researchgate.net/figure/EERD-of-Telemedicine-Web-Service_fig1_283635381)
 
 Each table is represented as a rectangle, there a multiple lines connecting the tables, which represent relationships
 
